@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.1</TargetFrameworks>
+    <PackageId>Microestc.Authorization</PackageId>
+    <Version>1.0.3</Version>
+    <Authors>Microestc</Authors>
+    <Company>Microestc Co.</Company>
+    <Product>Microestc.Authorization</Product>
+    <Description>provider licences for authorization</Description>
+    <Copyright>Microestc Co.</Copyright>
+    <PackageProjectUrl>https://github.com/microestc/Microestc.Authorization.git</PackageProjectUrl>
+    <RepositoryType>github</RepositoryType>
+    <RepositoryUrl>https://github.com/microestc/Microestc.Authorization.git</RepositoryUrl>
+    <PackageReleaseNotes>normal update</PackageReleaseNotes>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="3.1.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
